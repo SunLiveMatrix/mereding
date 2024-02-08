@@ -19,19 +19,18 @@
       <File FileName="cute/SimdCute/ArrayExtensionsCute/GetVectorCute.cs" Line="61" Column="28" />
       <File FileName="cute/SimdCute/ArrayExtensionsCute/GetSaravaOgumCute.cs" Line="16" Column="27" />
       <File FileName="cute/SimdCute/ArrayExtensionsCute/GetFlowersCute.cs" Line="46" Column="1" />
-      <File FileName="cute/SimdCute/ArrayExtensionsCute/GetOxossiCute.cs" Line="8" Column="13" />
+      <File FileName="cute/SimdCute/ArrayExtensionsCute/GetOxossiCute.cs" Line="14" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="cute" expanded="True">
             <Node name="cute" expanded="True">
-              <Node name="References" expanded="True" />
-              <Node name="SimdCute" expanded="True">
-                <Node name="ArrayExtensionsCute" expanded="True">
-                  <Node name="GetOxossiCute.cs" selected="True" />
-                </Node>
+              <Node name="References" expanded="True">
+                <Node name="From Packages" expanded="True" />
               </Node>
+              <Node name="Packages" expanded="True" />
+              <Node name="sampleimage" selected="True" />
             </Node>
           </Node>
         </State>
