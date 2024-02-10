@@ -1,5 +1,5 @@
 [Anjuta]
-Geometry=1024x767+170+87
+Geometry=1024x627+170+32
 
 [Document Manager]
 bookmarks=<?xml version="1.0" encoding="UTF-8"?>\n<bookmarks/>\n
@@ -12,6 +12,9 @@ Working directories=../../.
 Shortcut=mereding//src//libcute.la
 Expand=mereding%%%mereding//src%%%mereding//src//include%%%mereding//src//libcute.la%%%mereding//src//pkgconfig%%%mereding//dist_doc
 
+[Debugger]
+Stop at beginning=2
+
 [Build]
 Configuration list=1:Default:%%%1:Debug:Debug%%%1:Profiling:Profiling%%%1:Optimized:Optimized%%%1:MinGW32:MinGW32
 Selected Configuration=Debug
@@ -20,6 +23,3 @@ BuildArgs/Debug=--enable-maintainer-mode 'CFLAGS=-g -O0' 'CXXFLAGS=-g -O0' 'JFLA
 BuildArgs/Profiling=--enable-maintainer-mode 'CFLAGS=-g -pg' 'CXXFLAGS=-g -pg' 'JFLAGS=-g -pg' 'FFLAGS=-g -pg'
 BuildArgs/Optimized=--enable-maintainer-mode 'CFLAGS=-O2' 'CXXFLAGS=-O2' 'JFLAGS=-O2' 'FFLAGS=-O2'
 BuildArgs/MinGW32=--enable-maintainer-mode --host=i686-w64-mingw32 'PKG_CONFIG_PATH=/usr/i686-w64-mingw32/lib/pkgconfig:/usr/i686-w64-mingw32/share/pkgconfig:/usr/i686-w64-mingw32/sys-root/mingw/lib/pkgconfig:/usr/i686-w64-mingw32/sys-root/mingw/share/pkgconfig'
-
-[Debugger]
-Stop at beginning=2
